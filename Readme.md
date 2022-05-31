@@ -34,7 +34,7 @@ mypassword="<fill-in-Heroku-Postgredb-DB-pwd>"
 mydb="<fill-in-Heroku-Postgredb-DB-db>"
 
 ```
-### step 5: import postgredb (in db/postgre.db)
+### step 5: import postgredb (in db/postgre.sql)
 
 
 ### step 6: setting db in app.py
@@ -58,19 +58,25 @@ delete .git and git remote add origin master github.com/xxxxx
 
 ### step 10: Complete
 
-Sample link 1:
-https://awinlab-aiot.herokuapp.com/
+mylink: https://myapp0531.herokuapp.com/
 
-Sample link 2: 
-https://aiot0529.herokuapp.com/
-
-
-
-### setRandom:
-![setRandomsuccess](setRandom.png)
+### setRandom heroku:
+![setRandomsuccessHeroku](setRandom_heroku.png)
 
 
 
 
-### callAI:
-![callAIsuccess](callAI.png)
+### callAI heroku:
+![callAIsuccessHeroku](callAI_heroku.png)
+
+
+
+
+### setRandom Local:
+![setRandomsuccessLocal](setRandom.png)
+
+
+
+
+### callAI Local:
+![callAIsuccessLocal](callAI.png)
