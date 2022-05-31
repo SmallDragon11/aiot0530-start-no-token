@@ -25,6 +25,8 @@ numpy
 * new an app
 * go to resource and add-on an Heroku postgredb
 
+![step3](step3.png)
+
 ### step 4: login to heroku pstgredb using HeidiSQL
 
 ![step4_1](step4_1.png)
