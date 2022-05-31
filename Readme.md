@@ -6,9 +6,10 @@
 
 ### step 2 : install some package
 
+gunicorn 只適用UNIX系統
+且本作業好像也用不到?
 
 ```python
-pip insall gunicorn   
 Flask==2.0.1 
 Jinja2==3.0.1 
 psycopg2 
@@ -26,20 +27,23 @@ numpy
 
 ### step 4: login to heroku pstgredb using HeidiSQL
 
+![step4_1](step4_1.png)
 
-```sql
-myserver ="<fill-in-Heroku-Postgredb-DB-sever>"
-myuser="<fill-in-Heroku-Postgredb-DB-user>"
-mypassword="<fill-in-Heroku-Postgredb-DB-pwd>"
-mydb="<fill-in-Heroku-Postgredb-DB-db>"
+![step4_2](step4_2.png)
 
-```
+
 ### step 5: import postgredb (in db/postgre.sql)
 
+在public資料庫匯入postgre.sql表格
+
+![step5_1](step5_1.jpg)
+
+![step5_2](step5_2.jpg)
+
+![step5_3](step5_3.jpg)
 
 ### step 6: setting db in app.py
 
-
 ```sql
 myserver ="<fill-in-Heroku-Postgredb-DB-sever>"
 myuser="<fill-in-Heroku-Postgredb-DB-user>"
@@ -47,14 +51,26 @@ mypassword="<fill-in-Heroku-Postgredb-DB-pwd>"
 mydb="<fill-in-Heroku-Postgredb-DB-db>"
 
 ```
+
+![step6](step6.png)
+
+
 ### step 7: testing locally by running python app.py
 
-### step 8: deploy to github (new private github repositoy)
+![step7_1](step7_1.png)
 
-delete .git and git remote add origin master github.com/xxxxx
+![step7_2](step7_2.png)
+
+### step 8: deploy to github
+
+git push to
+
+link: https://github.com/SmallDragon11/aiot0530-start-no-token
 
 
 ### step 9: Heroku deploy from github
+
+![step9](step9.png)
 
 ### step 10: Complete
 
