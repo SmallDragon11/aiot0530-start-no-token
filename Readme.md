@@ -66,5 +66,11 @@ https://aiot0529.herokuapp.com/
 
 
 
+### setRandom:
+![setRandomsuccess](setRandom.png)
 
 
+
+
+### callAI:
+![callAIsuccess](callAI.png)
