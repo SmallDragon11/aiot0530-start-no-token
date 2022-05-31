@@ -25,24 +25,24 @@ numpy
 * new an app
 * go to resource and add-on an Heroku postgredb
 
-![step3](step3.png)
+![step3](img/step3.png)
 
 ### step 4: login to heroku pstgredb using HeidiSQL
 
-![step4_1](step4_1.png)
+![step4_1](img/step4_1.png)
 
-![step4_2](step4_2.png)
+![step4_2](img/step4_2.png)
 
 
 ### step 5: import postgredb (in db/postgre.sql)
 
 在public資料庫匯入postgre.sql表格
 
-![step5_1](step5_1.jpg)
+![step5_1](img/step5_1.jpg)
 
-![step5_2](step5_2.jpg)
+![step5_2](img/step5_2.jpg)
 
-![step5_3](step5_3.jpg)
+![step5_3](img/step5_3.jpg)
 
 ### step 6: setting db in app.py
 
@@ -54,14 +54,14 @@ mydb="<fill-in-Heroku-Postgredb-DB-db>"
 
 ```
 
-![step6](step6.png)
+![step6](img/step6.png)
 
 
 ### step 7: testing locally by running python app.py
 
-![step7_1](step7_1.png)
+![step7_1](img/step7_1.png)
 
-![step7_2](step7_2.png)
+![step7_2](img/step7_2.png)
 
 ### step 8: deploy to github
 
@@ -72,29 +72,29 @@ link: https://github.com/SmallDragon11/aiot0530-start-no-token
 
 ### step 9: Heroku deploy from github
 
-![step9](step9.png)
+![step9](img/step9.png)
 
 ### step 10: Complete
 
 mylink: https://myapp0531.herokuapp.com/
 
 ### setRandom heroku:
-![setRandomsuccessHeroku](setRandom_heroku.png)
+![setRandomsuccessHeroku](img/setRandom_heroku.png)
 
 
 
 
 ### callAI heroku:
-![callAIsuccessHeroku](callAI_heroku.png)
+![callAIsuccessHeroku](img/callAI_heroku.png)
 
 
 
 
 ### setRandom Local:
-![setRandomsuccessLocal](setRandom.png)
+![setRandomsuccessLocal](img/setRandom.png)
 
 
 
 
 ### callAI Local:
-![callAIsuccessLocal](callAI.png)
+![callAIsuccessLocal](img/callAI.png)
