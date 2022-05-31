@@ -4,6 +4,8 @@
 
 ### step 1 : Clone this github
 
+https://github.com/huanchen1107/aiot0531
+
 ### step 2 : install some package
 
 gunicorn 只適用UNIX系統
